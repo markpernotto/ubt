@@ -20,4 +20,6 @@ foreach($result as $ubt){
     echo $php_formatted_output;
 }
 get_footer();
+//Ouput list of cities
+ubt_location_output();
 ?>
