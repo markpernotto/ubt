@@ -39,7 +39,7 @@ If the URL was: https://yoursitename.com/example/Florida/Gainesville/, it would 
 
 #### Notes:
 * Assign only one page the _UBT Template_ template. If you assign multiple, only the first page assigned the template will reflect the custom template content
-* No capitalization is supported - whatever is 
+* No capitalization is supported - whatever is in the URL is what you get
 
 #### TODO:
 * Update regex in rewrite rule to allow for either homepage or sub page to display custom template
