@@ -88,8 +88,7 @@ if ( !function_exists( 'add_action' ) ) {
     }
     add_action('init', 'custom_rewrite_rule', 10, 0);
 
-    //So, after the footer is done footer-ing, do this next.
-    add_action('the_footer', 'ubt_location_output', 10, 999);
+    // Wherever you want your list of cities and states to display, call this function
     function ubt_location_output(){
 
         $result = $wpdb->get_results("SELECT city,state FROM $locations_tbl");
