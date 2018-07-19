@@ -4,10 +4,10 @@ This WordPress plugin allows you to upload a CSV file of Cities and States, crea
 
 For example, let's say you had the following list you were going to import.
 
-Portland, Oregon
-Denver, Colorado
-New York, New York
-Gainesville, Florida
+Portland, Oregon  
+Denver, Colorado  
+New York, New York  
+Gainesville, Florida  
 
 If you assigned the page 'Example' the _UBT Template_, and the slug of that page was 'example', the rewrite rules would allow you to display:
 https://yoursitename.com/example/Oregon/Portland/ 
