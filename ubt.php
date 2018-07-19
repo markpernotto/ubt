@@ -8,8 +8,6 @@ Author: mark.pernotto
 Author URI: https://pernotto.com/
 License: GPLv2 or later
 */
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
 if ( !function_exists( 'add_action' ) ) {
   echo 'Hi there!  I\'m just a plugin, not much I can do when called directly.';
