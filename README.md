@@ -15,34 +15,33 @@ and you'd be able to see your customized template. We'll use that URL for the du
 
 But it's not populated to begin with, so you include: **$city**, **$state** and **$city_state** anywhere in your template. These variables will display the City and State name displayed in the URL.
 
-For example, if your template looks like this:
+For example, if your template looks like this:  
 ``` <h3>My Great City of $city</h3>```
 
-And your URL was as above, it would appear like this:
-###My Great City of Portland
+And your URL was as above, it would appear like this:  
+### My Great City of Portland
 
-If the URL was: https://yoursitename.com/example/Florida/Gainesville/, it would appear like this:
-###My Great City of Gainesville 
+If the URL was: https://yoursitename.com/example/Florida/Gainesville/, it would appear like this:  
+### My Great City of Gainesville 
 
-
-###Plugin Goals:
+### Plugin Goals:
 * Allow for upload of 2-column CSV file to custom database table
 * Builds custom page template 
 * Rewrite URL rule to allow for State/City URL structure of above uploaded database
 * Builds page template to allow for insertion of City name and State name as well as custom HTML
 * Display list of uploaded CSV city/state list as these custom dynamic URLs
 
-###Instructions for Use
+### Instructions for Use
 * Upload zipped file to add new plugin to WP instance
 * Upload CSV file of desired Cities and States
 * Assign page template _UBT Template_ to the page you'd like to use for this
 * Update template on Batch Upload plugin settings page
 
-####Notes:
+#### Notes:
 * Assign only one page the _UBT Template_ template. If you assign multiple, only the first page assigned the template will reflect the custom template content
 * No capitalization is supported - whatever is 
 
-####TODO:
+#### TODO:
 * Update regex in rewrite rule to allow for either homepage or sub page to display custom template
 * Allow storage of multiple templates, depending on the Page slug name
 
